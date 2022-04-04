@@ -93,19 +93,19 @@ const Navbar = () => {
               </Hidden>
               <Hidden lgUp>
                 <Box mx="auto" position="relative" left={5}>
-                  <a href='/'><img src="./umr-logo-white.png" alt="logo" className={classes.logo} href='/' /></a>
+                  <a href='/'><img src="./t23logo.png" alt="logo" className={classes.logo} href='/' /></a>
                 </Box>
               </Hidden>
               <Hidden mdDown>
-              <a href='/'><img src="./umr-logo-white.png" alt="logo" className={classes.logo} href='/' /></a>
+              <a href='/'><img src="./t23logo.png" alt="logo" className={classes.logo} href='/' /></a>
               <Button className={classes.menu_button} color="inherit" href='/'>HOME</Button>
               <AboutUsMenuButton/>
               <Button className={classes.menu_button} color="inherit" href='/contact'>CONTACT</Button>
-              <Link href='/sponsors'>
+              {/* <Link href='/sponsors'>
                 <Button className={classes.menu_button} color="inherit">SPONSORS</Button>
-              </Link>
-              <Button className={classes.menu_button} color="inhereit" href='https://www.gofundme.com/f/umass-robotics?utm_source=customer&utm_medium=copy_link&utm_campaign=p_cf+share-flow-1' target='_blank'>DONATE</Button>
-              <Button className={classes.apply_button} color="inhereit" href='https://forms.gle/fAYZgDoUw859cnnF8' target="_blank">APPLY</Button>
+              </Link> */}
+              {/* <Button className={classes.menu_button} color="inhereit" href='https://www.gofundme.com/f/umass-robotics?utm_source=customer&utm_medium=copy_link&utm_campaign=p_cf+share-flow-1' target='_blank'>DONATE</Button> */}
+              {/* <Button className={classes.apply_button} color="inhereit" href='https://forms.gle/fAYZgDoUw859cnnF8' target="_blank">APPLY</Button> */}
               </Hidden>
             </Grid>
       </Toolbar>

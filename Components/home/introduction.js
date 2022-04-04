@@ -89,8 +89,8 @@ export default function Introduction() {
           workplace environment. UMass Robotics is an amazing place for students of
           all experience levels, and we hope to see you on the team!
         </Typography>
-        <Button className={classes.button} variant='contained' href='meet-the-team'>
-        MEET THE TEAM
+        <Button className={classes.button} variant='contained' href='about-us'>
+        LEARN MORE
         </Button>
       </Grid>
       <Grid item>

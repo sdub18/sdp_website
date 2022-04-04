@@ -15,7 +15,7 @@ const tutorialSteps = [
   {
     label: 'Applications',
     //imgPath: 'applications.png'
-    imgPath: 'UMRBannerLogo.png'
+    imgPath: 'team23banner.png'
     //href: /apply
   },
   {

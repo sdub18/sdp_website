@@ -44,34 +44,30 @@ const QuickFacts = () => {
           alignItems="center"
       >
         <Grid item xs={5}>
-            <a className={classes.link} href='/meet-the-team'>
-              <Fade timeout={2500}>
-                <QuickFactTile
-                  title="12"
-                  text="Team Members"
-                  img="/people-red.png"
-                />
-             </Fade>
-            </a>
+            <Fade timeout={2500}>
+              <QuickFactTile
+                title="4"
+                text="Team Members"
+                img="/people-red.png"
+              />
+            </Fade>
         </Grid>
         
         <Grid item xs={5}>
-            <a className={classes.link} href='https://www.gofundme.com/f/umass-robotics?utm_source=customer&utm_medium=copy_link&utm_campaign=p_cf+share-flow-1' target="_blank">
-              <Fade timeout={2500}>
-                <QuickFactTile
-                  title="1775"
-                  text="Dollars Raised"
-                  img="/trophy-red.png"
-                />
-              </Fade>
-            </a>
+            <Fade timeout={2500}>
+              <QuickFactTile
+                title="1775"
+                text="Dollars Raised"
+                img="/trophy-red.png"
+              />
+            </Fade>
         </Grid>
         
         <Grid item xs={5}>
           <Fade timeout={2500}>
             <QuickFactTile
-              title="2"
-              text="Prototype Robots"
+              title="3"
+              text="Prototype Boards"
               img="/robot-red.png"
             />
           </Fade>
