@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+<div class="navbar-fixed hide-on-med-and-up">
+    <nav id="non-homepage-nav" class="#b71c1c red darken-4">
+        <div class="nav-wrapper" id="nav-wrapper1">
+            <ul id="ul1" class="center">
+                <li><img id="list-img" src="static/images/UMRLogoWhite.png" alt=""></li>
+            </ul>
+            <a href="#" id="menu-button" class="sidenav-trigger hide-on-med-and-up" data-target="mobile-demo">
+                <i class="material-icons">menu</i>
+            </a>
+        </div>
+    </nav>
+</div>
+
+<nav id="non-homepage-nav" class="hide-on-small-only #b71c1c red darken-4">
+    <div class="nav-wrapper" id="nav-wrapper1">
+        <ul id="ul1" class="center hide-on-small-and-down">
+            <li><a id="nav-element" href="/">HOME</a></li>
+            <li><a id="nav-element" href="/MeetTheTeam">MEET THE TEAM</a></li>
+            <li class="hide-on-med-and-down"><img id="list-img" src="static/images/UMRLogoWhite.png" alt=""></li>
+            <li><a id="nav-element" href="/Competition">LUNABOTICS</a></li>
+            <li><a id="nav-element" href="/ContactUs">CONTACT</a></li>
+        </ul>
+        <a href="#" class="sidenav-trigger hide-on-med-and-up" data-target="mobile-demo">
+            <i class="material-icons">menu</i>
+        </a>
+    </div>
+</nav>
+
+<ul class="sidenav" id="mobile-demo">
+    <li><a href="/">Home</a></li>
+    <li><a href="/MeetTheTeam">Meet the Team</a></li>
+    <li><a href="/Competition">Lunabotics</a></li>
+    <li><a href="/ContactUs">Contact</a></li>
+</ul>
+
+<div id="container4">
+
+    <div id="lunabotics-quote">
+        <p>"The annual RMC: Lunabotics competition is a full-on engineering exercise where students receive practical experience in the full engineering lifecycle process from concept development to system closeout."<br>-NASA
+        </p>
+    </div>
+    <div id="lunabotics-logo">
+        <img class="responsive-img" src="static/images/LunaboticsLogo.jpg" alt="">
+    </div>
+
+    <div class="row"></div>
+
+    <div id="lower-half">
+        <div id="robot-picture">
+            <img class="responsive-img" src="static/images/NASARobot.jpg" alt="">
+            <div id="robot-picture-caption">-A robot in the RMC: Lunabotics competition.<br>&nbsp</div>
+        </div>
+        <div id="lunabotics-description">
+            The goal of NASA's Moon to Mars trajectory is to enable human exploration of Mars by the year 2024. To support this objective, NASA hosts the annual RMC: Lunabotics competition. Teams participating in the competition must design a robot capable of traversing an obstacle-filled, abrasive environment similar to the surface of Mars, and digging up to a depth of 45 cm for gravel. The robot must collect this gravel and deposit it in a drop zone. For more information on the competition, visit the <a target="_blank" href="https://www.nasa.gov/offices/education/centers/kennedy/technology/nasarmc.html">NASA</a> website. The rules for the competition can be found <a target="_blank" href="https://www.nasa.gov/sites/default/files/atoms/files/00_rmc2020_registration_rules_rubrics.pdf">here</a>.
+        </div>
+    </div>
+</div>
+
+<div id="middle-spacing"></div>
+
+<div>
+    <div id="bottom-color" class="#212121 grey darken-4">
+        <div id="back-to-top" class="hide-on-med-and-up"><a href="#top" id="back-to-top-color">BACK TO TOP</a></div>
+        <div id="follow-us" class="#9e9e9e grey-text">Follow us on social media!</div>
+        <div id="logo-container" class="navbar"> 
+            <nav id="logo-container-wrapper" class="nav-wrapper #212121 grey darken-4">
+              <div id="logo-positioning" class="container">
+                <a href="https://www.instagram.com/umassrobotics/" target="_blank"><img id="instagram-logo" src="static/images/IGLogo.png" alt=""></a>
+                <a href="https://www.youtube.com/channel/UCpH514vygzjNv3PWWZNuKuA" target="_blank"><img id="youtube-logo" src="static/images/YTLogo.png" alt=""></a>
+                <a href="https://github.com/UMass-Amherst-Robotics" target="_blank"><img id="github-logo" src="static/images/GithubLogo.png" alt=""></a>
+              </div>
+            </nav>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
