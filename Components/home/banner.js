@@ -19,13 +19,18 @@ const tutorialSteps = [
     //href: /apply
   },
   {
-    label: 'The Fellas',
-    imgPath: 'TheFellas.jpg',
+    label: 'Our First Board',
+    imgPath: 'boards.jpeg',
     //href:
   },
   {
-    label: 'Lunabotics',
-    imgPath: 'NewLunaboticsLogo.png',
+    label: 'Our First Prototype',
+    imgPath: 'prototype1.JPG',
+    //href:
+  },
+  {
+    label: 'Us Working on the Robot',
+    imgPath: 'guti1.jpeg',
     //href:
   },
 ];

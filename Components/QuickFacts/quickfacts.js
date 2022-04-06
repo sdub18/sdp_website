@@ -56,8 +56,8 @@ const QuickFacts = () => {
         <Grid item xs={5}>
             <Fade timeout={2500}>
               <QuickFactTile
-                title="1775"
-                text="Dollars Raised"
+                title="500"
+                text="Dollar Budget"
                 img="/trophy-red.png"
               />
             </Fade>
@@ -67,7 +67,7 @@ const QuickFacts = () => {
           <Fade timeout={2500}>
             <QuickFactTile
               title="3"
-              text="Prototype Boards"
+              text="Prototypes"
               img="/robot-red.png"
             />
           </Fade>
@@ -75,8 +75,8 @@ const QuickFacts = () => {
         <Grid item xs={5}>
           <Fade timeout={2500}>
             <QuickFactTile
-              title="8"
-              text="Months Old"
+              title="100+"
+              text="Hours of Work"
               img="/calendar-red.png"
             />
           </Fade>

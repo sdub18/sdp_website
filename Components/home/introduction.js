@@ -72,29 +72,19 @@ export default function Introduction() {
       >
         <Grid item align="center">
         <Typography className={classes.title} gutterBottom>
-          Welcome to UMass Robotics!
+          Why Motor Health Analysis?
         </Typography>
         <Typography className={classes.text} variant = 'body1' gutterBottom>
-          Looking for a fun and dynamic place to develop your engineering skills
-          outside of the classroom? Look no further, because UMass Robotics is the
-          perfect place for you! UMass Robotics is a student-run organization that
-          gives members the opportunity to dive deep into the cutting-edge field of
-          robotics. Members will gain experience in computer programming,
-          electronics, and hardware design. Each year, our team works to build a
-          robot that will compete in an annual competition. This year, the the team
-          will compete in the NASA Lunabotics competition by building a mining robot
-          capable of digging through sand and gathering "precious material," similar
-          to what a robot might do on Mars. Our team is highly committed, and every
-          member is guaranteed to learn valuable skills that can be applied in a
-          workplace environment. UMass Robotics is an amazing place for students of
-          all experience levels, and we hope to see you on the team!
+        Motors are an incredibly useful tool in a variety of applications. Thousands of real world systems hinge on these powerful devices.
+        When it comes to diagnostics, these devices are mostly black boxes. Unless you are purchasing a very specific type of motor, generally the health of the motor is unknown.
+        How can a user monitor the health of their motors, and thereby their systems, without compromising on the design of these systems?
         </Typography>
         <Button className={classes.button} variant='contained' href='about-us'>
-        LEARN MORE
+        THE SOLUTION
         </Button>
       </Grid>
       <Grid item>
-        <img src="/team-working.jpeg" alt="TheFellas" className={classes.img}/>
+        <img src="/guti2.jpeg" alt="TheFellas" className={classes.img}/>
       </Grid>
     </Grid>
     </div>
