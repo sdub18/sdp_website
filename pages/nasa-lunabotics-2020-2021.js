@@ -103,23 +103,46 @@ export default function Contact() {
         <Box pb={4}><Navbar/></Box>
           <Grid container>
             <Box component="div" display="inline" mb={5} className={classes.quote}>
-            "The annual RMC: Lunabotics competition is a full-on engineering exercise where students receive practical experience in the full engineering lifecycle process from concept development to system closeout."<br></br>
-            -NASA
+              Our Goal:
+            Build a robust, modular device that can monitor the health of a motor (or motors), display device metrics in a easily-digestible user interface, and alert the user when the safety and longevity of the device has become compromised.
             </Box>
             <Box component="div" display="inline" className={classes.logo}>
-              <img width="90%" src={'NewLunaboticsLogo.png'} />
+              <img width="90%" src={'demo.jpg'} />
             </Box>
             
             <Box component="div" display="inline" className={classes.robot}>
               <Box>
-                <img width="100%" src={'NASARobot.jpg'} />
+                <img width="100%" src={'pcb.png'} />
                 <Box className={classes.caption}>
-                  -A robot in the RMC: Lunabotics competition.
+                  -A PCB view of our second prototype.
                 </Box>
               </Box>
             </Box>
             <Box component="div" display="inline" className={classes.description}>
-            The goal of NASA's Moon to Mars trajectory is to enable human exploration of Mars by the year 2024. To support this objective, NASA hosts the annual RMC: Lunabotics competition. Teams participating in the competition must design a robot capable of traversing an obstacle-filled, abrasive environment similar to the surface of Mars, and digging up to a depth of 45 cm for gravel. The robot must collect this gravel and deposit it in a drop zone. For more information on the competition, visit the <a target="_blank" href="https://www.nasa.gov/offices/education/centers/kennedy/technology/nasarmc.html">NASA</a> website. The rules for the competition can be found <a target="_blank" href="https://www.nasa.gov/sites/default/files/atoms/files/00_rmc2020_registration_rules_rubrics.pdf">here</a>.
+              System Specifications:
+              
+              Shall measure:
+              Current being applied to motor
+              In a range of 0 - 35 A
+              Accuracy within 5% of true current value
+              The motor's temperature and ambient temperature
+              Can measure temperature between 30 to 115 degrees Celsius
+              Accuracy within +/- 2 degrees Celsius of true temperature
+              Precision within +/- 0.1 degrees Celsius of true temperature
+              The motor’s acceleration (3D-axis)
+              Accuracy within +/- 2 degrees
+              Shall visualize:
+              Current vs. time
+              Power vs. time
+              Temperature vs time
+              Angular position vs. time
+              Angular speed vs. time
+              Shall allow the user to:
+              Integrate external encoder 
+              measure angular position and velocity from encoder data
+              Shall alert the user through email or text about abnormal motor function
+              Shall run for minimum 6 months before requiring charging
+
             </Box>
           </Grid>
         </Box>
