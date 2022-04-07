@@ -21,7 +21,7 @@ export default function CopyrightTag(){
       justifyContent= 'center'
       alignItems= 'center'
     >
-      © UMass Robotics Club. All Rights Reserved.
+      © UMass Amherst Senior Design Project 2021-2022 Team 23. All Rights Reserved.
     </div>
   )
 }

@@ -29,14 +29,14 @@ export default function CopyrightTag(){
       id='social media tag'
       className={classes.Text}
     >
-      FOLLOW US ON SOCIAL MEDIA
+      {/* FOLLOW US ON SOCIAL MEDIA */}
       <Grid
         container
         direction='row'
         justify= 'space-evenly'
         alignItems= 'center'
       >
-        <a href='https://www.instagram.com/umassrobotics/' target='_blank'>
+        {/* <a href='https://www.instagram.com/umassrobotics/' target='_blank'>
           <InstagramIcon className={classes.Icon}/>
         </a>
         <a href='https://www.youtube.com/channel/UCpH514vygzjNv3PWWZNuKuA' target='_blank'>
@@ -44,7 +44,7 @@ export default function CopyrightTag(){
         </a>
         <a href='https://github.com/UMass-Amherst-Robotics' target='_blank'>
           <GitHubIcon  className={classes.Icon}/>
-        </a>
+        </a> */}
       </Grid>
     </div>
   )
