@@ -99,7 +99,8 @@ const Navbar = () => {
               <Hidden mdDown>
               <a href='/'><img src="./t23logo.png" alt="logo" className={classes.logo} href='/' /></a>
               <Button className={classes.menu_button} color="inherit" href='/'>HOME</Button>
-              <AboutUsMenuButton/>
+              <Button className={classes.menu_button} color="inherit" href='/meet-the-team'>THE TEAM</Button>
+              <Button className={classes.menu_button} color="inherit" href='nasa-lunabotics-2020-2021'>PROJECT</Button>
               <Button className={classes.menu_button} color="inherit" href='/contact'>CONTACT</Button>
               {/* <Link href='/sponsors'>
                 <Button className={classes.menu_button} color="inherit">SPONSORS</Button>

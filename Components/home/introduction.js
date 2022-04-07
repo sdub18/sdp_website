@@ -79,7 +79,7 @@ export default function Introduction() {
         When it comes to diagnostics, these devices are mostly black boxes. Unless you are purchasing a very specific type of motor, generally the health of the motor is unknown.
         How can a user monitor the health of their motors, and thereby their systems, without compromising on the design of these systems?
         </Typography>
-        <Button className={classes.button} variant='contained' href='about-us'>
+        <Button className={classes.button} variant='contained' href='nasa-lunabotics-2020-2021'>
         THE SOLUTION
         </Button>
       </Grid>
